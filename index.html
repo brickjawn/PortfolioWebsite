@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en" data-color-scheme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anthony Conforti - Cybersecurity Student & Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Matrix Rain Background -->
+    <canvas id="matrix-canvas"></canvas>
+    
+    <!-- Gaming Elements Canvas -->
+    <canvas id="game-canvas"></canvas>
+    
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="glitch-text">Anthony Conforti</span>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#experience" class="nav-link">Experience</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#rot13" class="nav-link">ROT13 Tool</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">
+                <span class="glitch-text" data-text="Anthony Conforti">Anthony Conforti</span>
+            </h1>
+            <p class="hero-subtitle">Cybersecurity Student & Developer | Penn State University</p>
+            <p class="hero-tagline">Specializing in TCP/IP Analysis & Malware Detection</p>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn btn--primary hero-btn">View Projects</a>
+                <a href="#" class="btn btn--outline hero-btn" id="download-resume">Download Resume</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content card glass-card">
+                <div class="card__body">
+                    <p>I'm a cybersecurity student at Penn State University with deep expertise in TCP/IP protocols and malware analysis. Currently serving as Webmaster for the IST Club and Program Senator, I bridge technical innovation with leadership.</p>
+                    
+                    <p>My specialization encompasses network security analysis using Wireshark, threat detection methodologies, and secure system administration. With 17 years of musical experience, I bring creative problem-solving to cybersecurity challenges.</p>
+                    
+                    <p>I'm passionate about blockchain technology, film production, gaming, and the intersection of science and security. My goal is to advance cybersecurity through both technical excellence and community engagement.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <div class="container">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card card glass-card">
+                    <div class="card__body">
+                        <div class="skill-icon cyber-icon">🛡️</div>
+                        <h3>Cybersecurity</h3>
+                        <ul class="skill-list">
+                            <li>TCP/IP Analysis</li>
+                            <li>Network Security</li>
+                            <li>Malware Analysis</li>
+                            <li>Wireshark</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="skill-card card glass-card">
+                    <div class="card__body">
+                        <div class="skill-icon code-icon">💻</div>
+                        <h3>Programming</h3>
+                        <ul class="skill-list">
+                            <li>Bash</li>
+                            <li>Python</li>
+                            <li>SQL</li>
+                            <li>Java</li>
+                            <li>JavaScript</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="skill-card card glass-card">
+                    <div class="card__body">
+                        <div class="skill-icon tools-icon">🔧</div>
+                        <h3>Tools & Platforms</h3>
+                        <ul class="skill-list">
+                            <li>VirtualBox</li>
+                            <li>KVM</li>
+                            <li>Microsoft365</li>
+                            <li>Git</li>
+                            <li>Kali Linux</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section">
+        <div class="container">
+            <h2 class="section-title">Experience</h2>
+            <div class="experience-timeline">
+                <div class="timeline-item card glass-card">
+                    <div class="card__body">
+                        <div class="timeline-date">2024-Present</div>
+                        <h3>Webmaster - Penn State IST Club</h3>
+                        <p>Leading technology initiatives and maintaining club digital presence</p>
+                    </div>
+                </div>
+                
+                <div class="timeline-item card glass-card">
+                    <div class="card__body">
+                        <div class="timeline-date">2024-Present</div>
+                        <h3>Senator - IST Program</h3>
+                        <p>Representing student interests in program governance and technology advocacy</p>
+                    </div>
+                </div>
+                
+                <div class="timeline-item card glass-card">
+                    <div class="card__body">
+                        <div class="timeline-date">Previous</div>
+                        <h3>Technician - Gertrude Hawks Chocolates</h3>
+                        <p>Operating multi-functional process control machinery and quality control</p>
+                    </div>
+                </div>
+                
+                <div class="timeline-item card glass-card">
+                    <div class="card__body">
+                        <div class="timeline-date">Previous</div>
+                        <h3>Pro Audio/Guitar Consultant - Guitar Center</h3>
+                        <p>Provided expert guidance on musical instruments and audio equipment</p>
+                    </div>
+                </div>
+                
+                <div class="timeline-item card glass-card">
+                    <div class="card__body">
+                        <div class="timeline-date">Previous</div>
+                        <h3>Sales Advisor - Best Buy</h3>
+                        <p>Delivered technical guidance on consumer electronics and solutions</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card card glass-card">
+                    <div class="card__body">
+                        <h3>Mystic Palm & Elements</h3>
+                        <p>Interactive web application demonstrating frontend development skills</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://brickjawn.github.io/PalmReaderApp" target="_blank" class="btn btn--primary btn--sm">Live Demo</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card card glass-card">
+                    <div class="card__body">
+                        <h3>Quack out of Heck: Pips Inferno</h3>
+                        <p>Interactive gaming experience with score tracking and level progression</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML5 Canvas</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">CSS3</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://brickjawn.github.io/PipsInferno" target="_blank" class="btn btn--primary btn--sm">Live Demo</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card card glass-card">
+                    <div class="card__body">
+                        <h3>TOR Network Security Project</h3>
+                        <p>Proxy-chains implementation for network security analysis</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Linux</span>
+                            <span class="tech-tag">Network Security</span>
+                            <span class="tech-tag">Proxy Configuration</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card card glass-card">
+                    <div class="card__body">
+                        <h3>AES Encrypt Tool</h3>
+                        <p>Encryption/decryption utility implementing AES standards</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Cryptography</span>
+                            <span class="tech-tag">Security</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card card glass-card">
+                    <div class="card__body">
+                        <h3>Twitter Bot</h3>
+                        <p>Automated social media engagement using X API</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">X API</span>
+                            <span class="tech-tag">Automation</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ROT13 Tool Section -->
+    <section id="rot13" class="section">
+        <div class="container">
+            <h2 class="section-title">ROT13 Encoder/Decoder</h2>
+            <p class="section-subtitle">Caesar cipher with 13-position alphabet rotation | Cybersecurity training tool</p>
+            
+            <div class="rot13-tool card glass-card">
+                <div class="card__body">
+                    <div class="rot13-grid">
+                        <div class="rot13-column">
+                            <label for="rot13-input" class="form-label">Input Text</label>
+                            <textarea 
+                                id="rot13-input" 
+                                class="form-control rot13-textarea" 
+                                placeholder="Enter text to encode/decode..."></textarea>
+                            <div class="char-counter">
+                                Characters: <span id="input-count">0</span>
+                            </div>
+                        </div>
+                        
+                        <div class="rot13-column">
+                            <label for="rot13-output" class="form-label">Output Text</label>
+                            <textarea 
+                                id="rot13-output" 
+                                class="form-control rot13-textarea" 
+                                readonly 
+                                placeholder="Encoded/decoded text will appear here..."></textarea>
+                            <div class="char-counter">
+                                Characters: <span id="output-count">0</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="rot13-controls">
+                        <button id="copy-output" class="btn btn--primary">Copy Output</button>
+                        <button id="swap-fields" class="btn btn--secondary">Swap Fields</button>
+                        <button id="clear-all" class="btn btn--outline">Clear All</button>
+                    </div>
+                    
+                    <div class="rot13-info">
+                        <p><strong>Note:</strong> ROT13 is self-inverse - encoding and decoding use the same operation. Numbers, symbols, and whitespace remain unchanged.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title">Connect With Me</h2>
+            <div class="contact-content card glass-card">
+                <div class="card__body">
+                    <p>Let's discuss cybersecurity opportunities and collaborations through professional networks.</p>
+                    <div class="contact-links">
+                        <a href="https://www.linkedin.com/in/anthony-conforti-65688b316/" target="_blank" class="contact-link">
+                            <span class="contact-icon">🔗</span>
+                            LinkedIn
+                        </a>
+                        <a href="https://x.com/crocboot" target="_blank" class="contact-link">
+                            <span class="contact-icon">🐦</span>
+                            X (Twitter): @crocboot
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Notifications -->
+    <div id="notification" class="notification hidden"></div>
+
+    <script src="app.js"></script>
+</body>
+</html>

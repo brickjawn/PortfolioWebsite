@@ -1,0 +1,33 @@
+# Development files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Temporary files
+*.tmp
+*.temp
+
+# Log files
+*.log
+
+# Documentation drafts (keep the implementation files for reference)
+rot13-code-snippets.md
+rot13-implementation.md
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Node modules (if you add any)
+node_modules/
+
+# Environment files
+.env
+.env.local 
