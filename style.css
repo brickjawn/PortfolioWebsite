@@ -920,6 +920,61 @@ select.form-control {
   margin-top: var(--space-16);
 }
 
+/* Articles Grid */
+.articles-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: var(--space-32);
+  margin-top: var(--space-32);
+}
+
+.article-card {
+  transition: transform var(--duration-normal) var(--ease-standard);
+}
+
+.article-card:hover {
+  transform: translateY(-10px) scale(1.02);
+}
+
+.article-header {
+  display: flex;
+  align-items: center;
+  gap: var(--space-12);
+  margin-bottom: var(--space-16);
+}
+
+.article-icon {
+  font-size: var(--font-size-2xl);
+  color: var(--neon-blue);
+}
+
+.article-header h3 {
+  margin: 0;
+  color: var(--color-text);
+  font-size: var(--font-size-xl);
+  line-height: var(--line-height-tight);
+}
+
+.article-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-8);
+  margin: var(--space-16) 0;
+}
+
+.tag {
+  padding: var(--space-4) var(--space-8);
+  background: rgba(255, 107, 71, 0.2);
+  color: var(--coral);
+  border-radius: var(--radius-sm);
+  font-size: var(--font-size-sm);
+  border: 1px solid rgba(255, 107, 71, 0.3);
+}
+
+.article-links {
+  margin-top: var(--space-16);
+}
+
 /* ROT13 Tool */
 .rot13-tool {
   max-width: 1000px;
@@ -1159,6 +1214,10 @@ select.form-control {
   }
 
   .projects-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .articles-grid {
     grid-template-columns: 1fr;
   }
 
