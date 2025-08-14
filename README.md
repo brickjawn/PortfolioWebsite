@@ -61,4 +61,4 @@ A modern, cybersecurity-themed portfolio website showcasing skills, experience, 
 ## Contact
 
 - LinkedIn: [Anthony Conforti](https://www.linkedin.com/in/anthony-conforti-65688b316/)
-- X (Twitter): [@crocboot](https://x.com/crocboot) 
+- X (Twitter): [@crocboot](https://x.com/zoo_mind) 
