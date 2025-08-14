@@ -1,4 +1,4 @@
-# Anthony Conforti - Portfolio Website
+Portfolio Website
 
 A modern, cybersecurity-themed portfolio website showcasing skills, experience, and projects.
 
